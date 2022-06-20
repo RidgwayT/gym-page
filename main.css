@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(252, 242, 227);
+    max-width: 1000px;
+    }
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    color:rgb(252, 242, 227);   
+    display: flex;
+    max-width: 100%;
+}
+
+footer {
+    
+    color: darkslategrey;
+    border-top: 1px grey solid}
+
+a:link  { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover   { text-decoration: underline;}
+a:active  { text-decoration: none;}
+
+strong  {
+    font-size: 1.1em;
+}
+
+ul    {
+    list-style-type: none;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+}
+
+li {
+    background-color: rgb(211, 187, 52);
+    padding: 15px;
+    border-radius: 4px; 
+    font-size: 24px;
+    margin: 5px;   
+}
+li:nth-child(3n+3) {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#bannerlinks {
+    color:rgb(0, 0, 0);}
+
+p {
+    font-size: 17px;
+    text-indent: 15px;
+    line-height: 1.3em;
+    }
+
+mark {
+    border-radius: 4px;
+    padding: 1px;
+}
+
+#hoganandre {
+    margin: auto;
+    display: flex;
+    justify-self: auto;
+    }
+
+
+ 
+
+
+
+
+
+
