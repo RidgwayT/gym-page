@@ -14,7 +14,7 @@ header {
 }
 
 footer {
-    
+    font-size: 14px;
     color: darkslategrey;
     border-top: 1px grey solid}
 
@@ -67,6 +67,9 @@ mark {
     justify-self: auto;
     }
 
+    abbr {
+        text-decoration: none;
+    }
 
  
 
